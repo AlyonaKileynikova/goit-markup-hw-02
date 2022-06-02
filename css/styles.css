@@ -16,7 +16,8 @@
 body {
     background-color: #fff;
     color: var(--main-text-color);
-    font-family: roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
 }
 
 ul {
@@ -34,7 +35,6 @@ h1 {
 .logo-up {
     color: #000000;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;    
@@ -50,7 +50,6 @@ h1 {
 }
 
 .hero-text {
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -63,7 +62,6 @@ h1 {
 .button-order {
     background-color: var(--accent-color);
     color: #ffffff;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -77,7 +75,6 @@ h1 {
 /* site-nav */
 
 .site-nav .link {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -96,8 +93,6 @@ h1 {
 
 .mail, .tel {
     color: var(--main-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -118,7 +113,6 @@ h1 {
 
 .principles .title {
     color: var(--title-text-color);
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -128,7 +122,6 @@ h1 {
 
 .principles-text {
     color: #757575;
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -138,7 +131,6 @@ h1 {
 /* чем мы занимаемся */
 
 .activity {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -154,13 +146,32 @@ h1 {
 }
 
 .team-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+}
+
+.team-item {
+
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 /* низ страницы */
@@ -171,7 +182,6 @@ h1 {
 
 .logo-down {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -180,19 +190,17 @@ h1 {
 }
 
 .adress-title {
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.17;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #ffffff;
 }
 
 .mail-tel {
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.17;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);;
 }
@@ -205,19 +213,22 @@ h1 {
 /* Страница Портфолио */
 
 .filter-title {
-    font-family: 'Roboto';
-    font-style: normal;
+    /* font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
+    color: var(--title-text-color); */
 }
 
 .filter-button {
     color: var(--title-text-color);
     background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .filter-button:hover,
@@ -227,8 +238,6 @@ h1 {
 }
 
 .project-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -237,8 +246,6 @@ h1 {
 }
 
 .project-text {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;

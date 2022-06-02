@@ -155,7 +155,6 @@ h1 {
 }
 
 .team-item {
-
 }
 
 .team-name {
@@ -215,8 +214,8 @@ h1 {
 
 /* Страница Портфолио */
 
-.filter-title {
-    /* font-family: 'Roboto';
+.filter-list {
+    /* font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -224,9 +223,12 @@ h1 {
     color: var(--title-text-color); */
 }
 
+.filter-title 
+
 .filter-button {
     color: var(--title-text-color);
     background-color: #F5F4FA;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;

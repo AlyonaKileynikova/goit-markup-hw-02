@@ -7,15 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>WebStudio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <title>WebStudio</title>
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
 <!--шапка сайта-->
-    <header>
+    <header class="page-header conteiner">
         <nav>
             <a href="" class="logo-up"> <span class="another-color">Web</span>Studio</a>
             <ul class="site-nav list">
@@ -28,13 +30,15 @@
         <a href="tel:+380961111111" class="tel">+38 096 111 11 11</a>
     </header>
     <main>
+        <!------- HERO -------->
         <section class="hero">
             <h1 class="hero-text">Эффективные решения <br> для вашего бизнеса</h1>
             <button type="button" class="button-order">Заказать услугу</button>
         </section>
         <section class="principles">
             <!--principles-->
-            <ul class="principles-list">
+            <div class="conteiner">
+                <ul class="principles-list">
                 <li>
                     <h3 class="title">Внимание к деталям</h3>
                     <p class="principles-text">Идейные соображения, а также начало повседневной
@@ -55,12 +59,14 @@
                     <p class="principles-text">Значимость этих проблем настолько очевидна, что
                         реализация плановых заданий.</p>
                 </li>
-            </ul>
+                </ul>
+            </div>
         </section>
         <section>
+            <div class="conteiner">
             <!--What we do-->
-            <h2 class="activity">Чем мы занимаемся</h2>
-            <ul>
+                <h2 class="activity-title">Чем мы занимаемся</h2>
+                <ul>
                 <li>
                     <img src="./images/what_we_do-1.jpg" alt="hands-on-keyboard" width="370" height="294">
                 </li>
@@ -70,12 +76,14 @@
                 <li>
                     <img src="./images/what_we_do-3.jpg" alt="ipad-in-hand" width="370" height="294">
                 </li>
-            </ul>
+                </ul>
+            </div>
         </section>
         <section class="team">
             <!--our team-->
-            <h2 class="team-title">Наша команда</h2>
-            <ul>
+            <div class="conteiner">
+                <h2 class="team-title">Наша команда</h2>
+                <ul>
                 <li class="team-item">
                     <img src="./images/team-card-1.jpg" alt="Игорь Демьяненко" width="270" height="260">
                     <h2 class="team-name">Игорь Демьяненко</h2>
@@ -96,11 +104,12 @@
                     <h2 class="team-name">Михаил Ермаков</h2>
                     <p lang="en" class="team-position">UI Designer</p>
                 </li>
-            </ul>
+                </ul>
+            </div>
         </section>
     </main>
-    <footer>
-        <div class="page-down">
+    <footer class="page-footer">
+        <div class="conteiner">
             <a href="" class="logo-down"><span class="another-color">Web</span>Studio</a>
             <address>
                 <p class="adress-title">г. Киев, пр-т Леси Украинки, 26</p>

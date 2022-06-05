@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 /* Цвет основного текста rgba(117, 117, 117, 1)  */
 /* вторичный цвет текста #212121 */
 /* белый #FFFFFF */
@@ -45,34 +55,19 @@ h1 {
     color: var(--accent-color);
 }
 
-.hero {
-    background-color: #2F303A;
+
+.page-header {
+    margin: 0;
+    width: 1600px;
+    border-bottom: 1px solid #ECECEC;
 }
 
-.hero-text {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #ffffff;
-}   
+/*----------- site-nav---------- */
 
-.button-order {
-    background-color: var(--accent-color);
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
+.list {
+    padding: 0;
+    margin: 0;
 }
-
-
-/* site-nav */
 
 .site-nav .link {
     font-weight: 500;
@@ -109,7 +104,55 @@ h1 {
     color: var(--accent-color);
 }
 
-/* наши принципы */
+/* ------------HERO-------- */
+
+
+.hero {
+    background-color: #2F303A;
+    text-align: center;
+}
+
+.hero-text {
+    margin-top: 0;
+    margin-bottom: 30;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.button-order {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    border: 1px solid transparent;
+    min-width: 200px;
+    background-color: var(--accent-color);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* ------------НАШИ ПРИНЦИПЫ--------- */
+
+.conteiner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    /* outline: 3px solid teal; */
+}
+
+.principles {
+    background-color: blanchedalmond;
+}
 
 .principles .title {
     color: var(--title-text-color);
@@ -118,6 +161,7 @@ h1 {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .principles-text {
@@ -130,7 +174,8 @@ h1 {
 
 /* чем мы занимаемся */
 
-.activity {
+.activity-title {
+    margin: auto;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -146,6 +191,8 @@ h1 {
 }
 
 .team-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -175,7 +222,7 @@ h1 {
 
 /* низ страницы */
 
-.page-down {
+.page-footer {
     background-color: #2F303A;
 }
 
@@ -212,7 +259,7 @@ h1 {
     color: var(--accent-color);
 }
 
-/* Страница Портфолио */
+/* --------- Страница Портфолио -------- */
 
 .filter-list {
     /* font-style: normal;
@@ -226,6 +273,10 @@ h1 {
 .filter-title 
 
 .filter-button {
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    padding: 6px 22px;
     color: var(--title-text-color);
     background-color: #F5F4FA;
     font-family: inherit;
